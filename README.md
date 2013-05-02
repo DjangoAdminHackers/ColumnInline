@@ -3,7 +3,7 @@ ColumnInline
 
 Custom ColumnInline for Django admin
 
-TODOS
+TODOs
 -----
 
  * Custom ColumnInline for Django admin
