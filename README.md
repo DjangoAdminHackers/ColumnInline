@@ -1,9 +1,18 @@
 ColumnInline
 ============
 
-Custom ColumnInline for Django admin
+Custom ColumnInline for Django admin. It renders each fieldset as a TR in a single TD
+
+Usage
+-----
+
+    from ColumnInline.columninline import  v
+
+    class MyInline(ColumnInline):
+        ....
+        (everything else as normal)
 
 TODOs
 -----
 
- * Custom ColumnInline for Django admin
+ * Add a bit of CSS to make it prettier.
