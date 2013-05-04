@@ -6,7 +6,7 @@ Custom ColumnInline for Django admin. It renders each fieldset as a TR in a sing
 Usage
 -----
 
-    from ColumnInline.columninline import  v
+    from ColumnInline.columninline import ColumnInline
 
     class MyInline(ColumnInline):
         ....
