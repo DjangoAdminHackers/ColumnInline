@@ -11,7 +11,6 @@ setup(
     packages=find_packages(),
     long_description=long_desc,
     url='https://github.com/DjangoAdminHackers/ColumnInline',
-    packages=find_packages(exclude=['tests']),
     include_package_data=True,
     license='MIT License',
     classifiers=[
