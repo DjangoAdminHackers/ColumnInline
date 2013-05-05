@@ -6,6 +6,10 @@ Custom ColumnInline for Django admin. It renders each fieldset as a TR in a sing
 Usage
 -----
 
+Add 'column_inline' to INSTALLED_APPS so that Django knows where to find the templates.
+
+The all you need is:
+
     from column_inline.admin import ColumnInline
 
     class MyInline(ColumnInline):
