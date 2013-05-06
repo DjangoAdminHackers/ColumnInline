@@ -3,6 +3,10 @@ ColumnInline
 
 Custom ColumnInline for Django admin. It renders each fieldset as a TR in a single TD
 
+Normal Stacked Inline: ![Normal Stacked Inline](https://raw.github.com/DjangoAdminHackers/ColumnInline/master/docs/img/before.png)
+
+Switch to Column Inline: ![Switch to Column Inline](https://raw.github.com/DjangoAdminHackers/ColumnInline/master/docs/img/after.png)
+
 Usage
 -----
 
