@@ -22,6 +22,8 @@ The all you need is:
     class MyInline(ColumnInline):
         ....
         (everything else as normal)
+        
+Just use the normal 'fieldsets' attribute on your Inline class to define which fields are grouped into columns.
 
 TODOs
 -----
