@@ -21,9 +21,12 @@ The all you need is:
 
     class MyInline(ColumnInline):
         ....
-        (everything else as normal)
+        fieldsets = [
+        ("", {'fields': ('image', ('active', 'heading', 'link',), 'text', 'order')}),
+    ]
+
         
-Just use the normal 'fieldsets' attribute on your Inline class to define which fields are grouped into columns.
+Just use the 'tuple within tuple' to define which fields are grouped into columns. In the example above there would be 3 columns: 'image' followed by ('active', 'heading', 'link',) and then finally the last two fields in a single column.
 
 TODOs
 -----
