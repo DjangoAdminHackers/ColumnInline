@@ -1,0 +1,21 @@
+.compact-inline .add-row {
+    clear: both
+}
+
+.compact-inline .inline-related {
+    width: 25%;
+    float: left;
+    border-right: 1px solid #f4f4f4;
+}
+
+.compact-inline .inline_label {
+    display: none;
+}
+
+.compact-inline h3 b {
+    display: none;
+}
+
+.compact-inline h3 .delete {
+    float: left !important;
+}
