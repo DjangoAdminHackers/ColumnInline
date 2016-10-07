@@ -6,6 +6,7 @@
     width: 25%;
     float: left;
     border-right: 1px solid #f4f4f4;
+    box-sizing: border-box;
 }
 
 .compact-inline .inline_label {
